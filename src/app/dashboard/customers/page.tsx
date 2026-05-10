@@ -139,7 +139,7 @@ export default function CustomersPage() {
           </div>
 
           <Dialog open={isAddModalOpen} onOpenChange={setIsAddModalOpen}>
-            <DialogTrigger asChild>
+            <DialogTrigger>
               <Button className="shrink-0 gap-2" onClick={() => setSaveError(null)}>
                 <Plus className="h-4 w-4" />
                 Add Customer
